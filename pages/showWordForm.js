@@ -14,12 +14,15 @@ const showWordForm = (word = {}) => {
       <input type="text" class="form-control" id="definition" aria-describedby="bookTitle" placeholder="Enter Definition" value="${word.definition || ''}" required>
     </div>
     <div>
-      <label for="word-type">Select a Category</label>
+      <label for="word-type">Select a Type</label>
       <select class="form-control" id="word-type" required>
         <option value="">Select an option</option>
-        <option value="animal">animal</option>
-        <option value="weird">weird</option>
-        <option value="misc">miscellaneous</option>
+        <option value="type1">type1</option>
+        <option value="type2">type2</option>
+        <option value="type3">type3</option>
+        <option value="type4">type4</option>
+        <option value="type5">type5</option>
+        <option value="type6">type6</option>
       </select>
     </div>
     <button type="submit" class="btn btn-primary" id="${word.firebaseKey ? `update-word--${word.firebaseKey}` : 'submit-button'}">Submit Word
