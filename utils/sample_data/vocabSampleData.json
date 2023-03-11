@@ -1,0 +1,66 @@
+[
+	{
+		"wordName": "Duis",
+		"definition": "ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis quam a",
+		"type": "Maecenas",
+		"firebaseKey": "INW38CEF8CE",
+		"submissionTime": "4:21 AM",
+		"uid": "61F7C388-EFC9-B6B6-13BC-87A1ED6C3E3C"
+	},
+	{
+		"wordName": "mollis",
+		"definition": "et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id,",
+		"type": "In",
+		"firebaseKey": "SUH03FMA8ZY",
+		"submissionTime": "7:26 AM",
+		"uid": "DDD8BC8E-44F1-7D55-8571-54E6D6CCBE62"
+	},
+	{
+		"wordName": "Aenean",
+		"definition": "vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras dolor dolor,",
+		"type": "ornare. Fusce",
+		"firebaseKey": "EJT15XUN7PI",
+		"submissionTime": "8:23 PM",
+		"uid": "B9223073-FE52-3EAB-CD3D-A6B51C96841F"
+	},
+	{
+		"wordName": "Cras",
+		"definition": "purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero",
+		"type": "ipsum",
+		"firebaseKey": "UYW17IMO4CH",
+		"submissionTime": "11:03 AM",
+		"uid": "7EC427A7-4DA8-CE08-1FB5-FCEEAED87122"
+	},
+	{
+		"wordName": "dis",
+		"definition": "vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est",
+		"type": "at fringilla",
+		"firebaseKey": "ORO36QLA7KU",
+		"submissionTime": "4:36 PM",
+		"uid": "317A9ED2-256C-ABC6-9592-B1CB780DD27D"
+	},
+	{
+		"wordName": "amet",
+		"definition": "facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus",
+		"type": "eget, ipsum.",
+		"firebaseKey": "UWW19GFV7DR",
+		"submissionTime": "12:30 PM",
+		"uid": "E71CDB78-BB8E-E5E4-9578-77166AC38930"
+	},
+	{
+		"wordName": "adipiscing",
+		"definition": "augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique",
+		"type": "Donec",
+		"firebaseKey": "MST76LRO2MR",
+		"submissionTime": "7:57 PM",
+		"uid": "438D7332-6BFD-5524-C29B-710B3724E552"
+	},
+	{
+		"wordName": "consequat",
+		"definition": "blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam.",
+		"type": "porttitor",
+		"firebaseKey": "UTL31OGU9GO",
+		"submissionTime": "1:09 PM",
+		"uid": "6C45D9BE-495F-45DD-CBA9-DA0A91363DAA"
+	}
+]
