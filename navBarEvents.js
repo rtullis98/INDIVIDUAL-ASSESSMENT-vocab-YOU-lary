@@ -1,6 +1,6 @@
-import getVocabWords from '../api/vocabAPI';
-import showWordForm from '../pages/showWordForm';
-import showCards from '../pages/vocabCard';
+import getVocabWords from './api/vocabAPI';
+import showWordForm from './pages/showWordForm';
+import showCards from './pages/vocabCard';
 
 const navEvents = (user) => {
   document.querySelector('#app').addEventListener('click', (e) => {
