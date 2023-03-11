@@ -40,4 +40,30 @@ const updateVocabWord = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export { getVocabWords, createVocabWord, updateVocabWord };
+const deleteVocabWord = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${url}/words/${firebaseKey}.json`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+const getSingleVocabCard = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${url}/words/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+export {
+  getVocabWords, createVocabWord, updateVocabWord, deleteVocabWord, getSingleVocabCard
+};
