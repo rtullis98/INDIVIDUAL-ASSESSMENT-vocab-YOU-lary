@@ -16,7 +16,7 @@ const showWordForm = (word = {}) => {
     <div>
       <label for="word-type">Select a Type</label>
       <select class="form-control" id="word-type" required>
-        <option value="">Select an option</option>
+        <option value="">Select a category</option>
         <option value="type1">type1</option>
         <option value="type2">type2</option>
         <option value="type3">type3</option>
