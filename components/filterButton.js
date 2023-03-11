@@ -2,14 +2,14 @@ import renderToDOM from '../utils/renderToDom';
 
 const filterButton = () => {
   const domString = `<div>
-  <label for="filter-value">Select a Category</label>
+  <label for="filter-value">Choose vocab category</label>
   <select class="form-control" id="filter-value" required>
-    <option value="">Select an option</option>
-    <option value="animal">animal</option>
-    <option value="weird">weird</option>
-    <option value="misc">miscellaneous</option>
+    <option value="">Type</option>
+    <option value="type1">type1</option>
+    <option value="type2">type2</option>
+    <option value="type3">type3</option>
   </select>
-</div><button type="button" class="btn btn-primary" id="filter-btn">Filter by Type</button>`;
+</div><button type="button" class="btn btn-primary" id="filter-btn">Submit</button>`;
   renderToDOM(domString, '#filter-buttons');
 };
 
