@@ -1,6 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import clearDOM from '../components/clearDOM';
+import clearDOM from '../components/clearDom';
 
 const signIn = () => {
   const provider = new firebase.auth.GoogleAuthProvider();
