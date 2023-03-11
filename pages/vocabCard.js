@@ -1,5 +1,5 @@
 import renderToDOM from '../utils/renderToDom';
-import clearDOM from '../components/clearDOM';
+import clearDOM from '../components/clearDom';
 
 const showCards = (wordArray) => {
   clearDOM();
